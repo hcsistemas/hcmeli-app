@@ -1,5 +1,6 @@
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
+import { Image } from 'react-bootstrap';
 
 const SearchForm = (props) => {
   const keyWord = props?.keyWord;
@@ -9,7 +10,7 @@ const SearchForm = (props) => {
       <div className='search-bar-cont'>
         <div className='search-bar-cont-img'>
           <Link href="/">
-            <img src="/meli.png" width="42px" alt="meli-logo"/>
+            <Image src="/meli.png" width="42px" alt="meli-logo"/>
           </Link>
         </div>
         <div className='search-bar-cont-input'>

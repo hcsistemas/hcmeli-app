@@ -1,9 +1,10 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
 
 const Loading = () => {
   return (
     <div className='loading'>
-      <img src="/loading.gif"/>   
+      <Image src="/loading.gif" alt='loading'/>
     </div>
   )
 }

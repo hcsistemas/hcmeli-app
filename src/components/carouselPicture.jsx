@@ -1,8 +1,7 @@
 'use client'
 
 import { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
-
+import { Carousel, Image } from 'react-bootstrap';
 
 export default function CarouselPicture(props) {
   const { pictures } = props.product;
@@ -16,7 +15,7 @@ export default function CarouselPicture(props) {
     <Carousel activeIndex={index} onSelect={handleSelect} className="carousel-cont">
       {pictures.map((item) => (
         <Carousel.Item key={item.id} interval={4000}>
-          <img src={item.url} alt={item.id}/>
+          <Image src={item.url} alt={item.id}/>
         </Carousel.Item>
       ))}
     </Carousel>

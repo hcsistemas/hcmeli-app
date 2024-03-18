@@ -19,6 +19,7 @@ exports[`Home renders page unchanged 1`] = `
           >
             <img
               alt="meli-logo"
+              class=""
               src="/meli.png"
               width="42px"
             />

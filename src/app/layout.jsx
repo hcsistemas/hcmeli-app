@@ -7,8 +7,8 @@ import "./globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "HC MercadoLibre",
-  description: "Powered by nextjs",
+  title: "MercadoLibre",
+  description: "mercadolibre, compra, articulos, productos",
 };
 
 export default function RootLayout({ children }) {

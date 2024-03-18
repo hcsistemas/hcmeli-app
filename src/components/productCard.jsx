@@ -1,4 +1,5 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
 import { toMoneyValue } from '@/utils/utils';
 
 const ProductCard = (props) => {
@@ -7,7 +8,7 @@ const ProductCard = (props) => {
   return (
     <div className="prod-cont">
       <div className='prod-img-cont'>
-        <img className="img-fluid p-3" src={ product.thumbnail } alt={ product.title } />
+        <Image className="img-fluid p-3" src={ product.thumbnail } alt={ product.title } />
       </div>
       <div>
         <div className="p-1">
