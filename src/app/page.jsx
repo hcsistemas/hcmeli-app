@@ -4,7 +4,7 @@ import SearchForm from "@/components/searchForm";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <SearchForm />
+      <SearchForm/>
     </main>
   );
 }

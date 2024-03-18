@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders page unchanged 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <div
+      class="search-bar-main"
+    >
+      <div
+        class="search-bar-cont"
+      >
+        <div
+          class="search-bar-cont-img"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="meli-logo"
+              src="/meli.png"
+              width="42px"
+            />
+          </a>
+        </div>
+        <div
+          class="search-bar-cont-input"
+        >
+          <form
+            action="/items"
+            method="GET"
+          >
+            <div
+              class="input-group mb-3"
+            >
+              <input
+                class="form-control"
+                name="search"
+                placeholder="Nunca dejes de buscar"
+                type="text"
+                value=""
+              />
+              <div
+                class="input-group-append"
+              >
+                <button
+                  class="btn btn-secondary btn-bar"
+                  type="submit"
+                >
+                  <i
+                    class="bi bi-search"
+                  />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
